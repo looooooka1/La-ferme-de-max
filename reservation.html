@@ -459,7 +459,7 @@ const CONFIG = { endpoint: "", email: "" };
     const q = new URLSearchParams();
     if (S.start) q.set('arrivee', S.start); if (S.end) q.set('depart', S.end);
     q.set('pax', S.pax); if (S.gite) q.set('gite', S.gite);
-    history.replaceState(null, '', '?' + q.toString());
+    try { history.replaceState(null, '', '?' + q.toString()); } catch (e) {}
     if (fromCal) $('#err').textContent = '';
   }
 
