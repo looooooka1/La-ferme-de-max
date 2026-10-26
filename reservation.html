@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Réserver un gîte avec jacuzzi près de La Rochelle | La Ferme de Max</title>
+<meta name="description" content="Choisissez vos dates, voyez les gîtes de La Ferme de Max et le prix du séjour. Jacuzzi inclus, à partir de 192 € la nuit à Saint-Médard-d'Aunis.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#101916">
+<link rel="canonical" href="https://looooooka1.github.io/La-ferme-de-mac/reservation.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="La Ferme de Max">
+<meta property="og:url" content="https://looooooka1.github.io/La-ferme-de-mac/reservation.html">
+<meta property="og:title" content="Réserver un gîte avec jacuzzi près de La Rochelle | La Ferme de Max">
+<meta property="og:description" content="Vos dates, les gîtes concernés et le prix du séjour en quelques secondes.">
+<meta property="og:image" content="https://looooooka1.github.io/La-ferme-de-mac/assets/jacuzzi-1600.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"La Ferme de Max","item":"https://looooooka1.github.io/La-ferme-de-mac/"},
+    {"@type":"ListItem","position":2,"name":"Réserver","item":"https://looooooka1.github.io/La-ferme-de-mac/reservation.html"}
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Young+Serif&display=swap" rel="stylesheet">
+<style>
+:root{
+  --nuit:#101916;--nuit-2:#18251F;--pierre:#E3DFD4;--pierre-2:#D3CDBE;
+  --eau:#3CC3B6;--eau-clair:#9CE3DB;--eau-fonce:#0E7C73;
+  --rouge:#D8402E;--jaune:#F2B632;
+  --ink:#1A211E;--muted:#5B655F;--line:rgba(26,33,30,.18);--line-light:rgba(227,223,212,.22);
+  --gutter:clamp(20px,5vw,72px);
+  --display:"Young Serif",Georgia,serif;--body:"Instrument Sans",system-ui,sans-serif;
+  --ease:cubic-bezier(.23,1,.32,1);--d-quick:160ms;--d-base:280ms;--d-slow:700ms;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:84px}
+body{font-family:var(--body);font-size:1.0625rem;line-height:1.6;color:var(--ink);background:var(--pierre);overflow-x:hidden}
+a{color:inherit}
+button,input,select,textarea{font:inherit}
+:focus-visible{outline:3px solid var(--jaune);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 var(--gutter)}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.05;letter-spacing:-.012em}
+h2{font-size:clamp(1.9rem,4.4vw,3.2rem)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 28px;border-radius:99px;border:0;background:var(--eau);color:var(--nuit);font-weight:600;text-decoration:none;cursor:pointer;transition:background var(--d-quick) ease,transform var(--d-quick) var(--ease)}
+@media (hover:hover) and (pointer:fine){.btn:hover{background:var(--eau-clair);transform:translateY(-2px)}}
+.btn:active,.btn:hover:active{transform:scale(.97)}
+.btn:disabled{background:rgba(26,33,30,.18);color:var(--muted);cursor:not-allowed;transform:none}
+.btn.dark{background:var(--nuit);color:var(--pierre)}
+.btn.dark:hover{background:#000}
+.btn.ghost{background:transparent;box-shadow:inset 0 0 0 1.5px var(--line);color:var(--ink)}
+.btn.ghost:hover{background:rgba(26,33,30,.06)}
+.btn.sm{min-height:42px;padding:0 20px;font-size:.95rem}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(16,25,22,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line-light)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--pierre)}
+.logo svg{width:38px;height:38px;flex:none}
+.logo span{font-family:var(--display);font-size:1.2rem;line-height:1.05}
+.logo small{display:block;font:500 .72rem var(--body);color:var(--eau-clair);margin-top:2px}
+.mark .house{fill:none;stroke:var(--pierre);stroke-width:2.6;stroke-linejoin:round;stroke-linecap:round}
+.mark .fillw{fill:var(--eau)}
+.mark .wave{animation:drift 3.2s linear infinite}
+@keyframes drift{to{transform:translateX(-36px)}}
+.back{color:var(--pierre);font-size:.95rem;text-decoration:none;opacity:.85;margin-left:auto;margin-right:8px}
+.back:hover{opacity:1}
+@media(max-width:600px){.logo small,.back{display:none}}
+
+/* TÊTE : mini formulaire */
+.head{background:var(--nuit);color:var(--pierre);padding:calc(68px + clamp(40px,7vw,88px)) 0 clamp(40px,6vw,72px);position:relative;overflow:hidden}
+.head::before{content:"";position:absolute;inset:auto -10% -40% -10%;height:70%;background:radial-gradient(60% 100% at 50% 100%,rgba(60,195,182,.22),transparent 70%);pointer-events:none}
+.head .wrap{position:relative}
+.head::before{animation:glow 9s ease-in-out infinite alternate}
+@keyframes glow{from{transform:translateX(-5%)}to{transform:translateX(5%)}}
+.head h1 .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em}
+.head h1 .w i{display:inline-block;font-style:normal;transform:translateY(110%);animation:wup 900ms var(--ease) forwards}
+@keyframes wup{to{transform:none}}
+.head .lead,.head .mini,.head .trust{opacity:0;animation:rise 700ms var(--ease) forwards}
+.head .lead{animation-delay:380ms}.head .mini{animation-delay:500ms}.head .trust{animation-delay:660ms}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+main{animation:pagein 420ms ease both}
+@keyframes pagein{from{opacity:0}}
+.head h1{font-size:clamp(2.4rem,7vw,5.2rem);max-width:13ch}
+.head p.lead{margin-top:16px;max-width:42ch;color:#C7D0C9;font-size:clamp(1.02rem,2vw,1.2rem)}
+.mini{margin-top:clamp(26px,4vw,40px);display:grid;grid-template-columns:1fr 1fr .7fr auto;gap:1px;background:var(--line-light);border-radius:18px;overflow:hidden;max-width:820px}
+.mini label{display:flex;flex-direction:column;gap:1px;padding:11px 16px;background:var(--nuit-2);font-size:.78rem;color:var(--eau-clair)}
+.mini label:focus-within{background:#203229}
+.mini input,.mini select{background:transparent;border:0;color:#fff;font-weight:500;font-size:1.05rem;width:100%;color-scheme:dark}
+.mini input:focus-visible,.mini select:focus-visible{outline:none}
+.mini select option{color:#111}
+.mini .btn{border-radius:0;min-height:62px}
+.err{margin-top:12px;min-height:1.4em;color:#FFB4A8;font-size:.95rem}
+.trust{margin-top:10px;display:flex;flex-wrap:wrap;gap:8px 26px;list-style:none;font-size:.92rem;color:#C7D0C9}
+.trust li::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--eau);margin-right:9px;vertical-align:middle}
+@media(max-width:700px){.mini{grid-template-columns:1fr 1fr;border-radius:16px}.mini label:nth-child(3){grid-column:1 / -1}.mini .btn{grid-column:1 / -1;min-height:54px}}
+
+/* DISPONIBILITÉS */
+.dispos{padding:clamp(48px,7vw,88px) 0 clamp(40px,6vw,72px)}
+.dispos .top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:12px 32px}
+.dispos .meta{color:var(--muted)}
+.cards{margin-top:clamp(22px,3.4vw,38px);display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{position:relative;text-align:left;border:1.5px solid var(--line);border-radius:18px;background:transparent;padding:22px 22px 20px;cursor:pointer;display:grid;gap:6px;transition:border-color var(--d-base) ease,background var(--d-base) ease,transform var(--d-base) var(--ease);color:inherit}
+@media (hover:hover) and (pointer:fine){.card:hover{transform:translateY(-3px);border-color:var(--ink)}}
+.card:active{transform:scale(.985)}
+.cards.first .card{animation:cardin 520ms var(--ease) both}
+.cards.first .card:nth-child(2){animation-delay:70ms}.cards.first .card:nth-child(3){animation-delay:140ms}
+@keyframes cardin{from{opacity:0;transform:translateY(14px)}}
+.card[aria-pressed="true"]{border-color:var(--nuit);background:#fff;box-shadow:0 0 0 1.5px var(--nuit)}
+.card.off{opacity:.55}
+.card h3{font-size:1.6rem}
+.card .night{font-family:var(--display);font-size:1.9rem;line-height:1;margin-top:6px}
+.card .night small{font:500 .85rem var(--body);color:var(--muted)}
+.card .tags{font-size:.88rem;color:var(--muted)}
+.badge{display:inline-flex;align-items:center;gap:8px;font-size:.85rem;font-weight:600;padding:4px 12px;border-radius:99px;width:fit-content;margin-top:6px}
+.badge::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+.badge.idle{background:rgba(26,33,30,.08);color:var(--muted)}
+.badge.ok{background:rgba(60,195,182,.22);color:#0A5E57}
+.badge.maybe{background:rgba(242,182,50,.28);color:#6B4C00}
+.badge.no{background:rgba(216,64,46,.15);color:#8E2417}
+.card .total{margin-top:6px;font-weight:600}
+@media(max-width:820px){.cards{grid-template-columns:1fr}.card{grid-template-columns:1fr auto;align-items:start}.card .night,.card .total{grid-column:2;grid-row:1;text-align:right}.card .total{grid-row:2}.card .badge{grid-column:1}.card .tags{grid-column:1}}
+
+/* CALENDRIER */
+.cal{margin-top:clamp(28px,4vw,48px);background:#fff;border-radius:22px;padding:clamp(16px,3vw,32px)}
+.cal .bar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}
+.cal .bar strong{font-family:var(--display);font-weight:400;font-size:1.25rem}
+.cal .bar button{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--line);background:transparent;cursor:pointer;font-size:1.1rem;color:var(--ink);transition:background .2s}
+.cal .bar button:hover:not(:disabled){background:var(--ink);color:#fff}
+.cal .bar button:disabled{opacity:.3;cursor:not-allowed}
+.months{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,56px)}
+.month h4{font:600 1rem var(--body);text-align:center;margin-bottom:10px;text-transform:capitalize}
+.dow,.days{display:grid;grid-template-columns:repeat(7,1fr);text-align:center}
+.dow span{font-size:.78rem;color:var(--muted);padding-bottom:6px}
+.day{aspect-ratio:1/.88;border:0;background:transparent;cursor:pointer;font-size:.98rem;position:relative;color:var(--ink);border-radius:0;font-variant-numeric:tabular-nums}
+.day:active:not(:disabled){transform:scale(.94)}
+@media (hover:hover) and (pointer:fine){.day:hover:not(:disabled)::after{content:"";position:absolute;inset:3px;border-radius:50%;box-shadow:inset 0 0 0 1.5px var(--ink)}}
+.day:disabled{color:rgba(26,33,30,.28);cursor:not-allowed}
+.day.blocked{color:rgba(26,33,30,.38);text-decoration:line-through}
+.day.inrange{background:rgba(60,195,182,.24)}
+.day.start,.day.end{background:var(--nuit);color:#fff;z-index:1}
+.day.start{border-radius:99px 0 0 99px}.day.end{border-radius:0 99px 99px 0}
+.day.start.end{border-radius:99px}
+.day.start:hover::after,.day.end:hover::after{display:none}
+.day.today::before{content:"";position:absolute;left:50%;bottom:6px;width:4px;height:4px;margin-left:-2px;border-radius:50%;background:var(--eau-fonce)}
+.legend{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px 22px;font-size:.88rem;color:var(--muted)}
+.legend span::before{content:"";display:inline-block;width:12px;height:12px;border-radius:4px;margin-right:8px;vertical-align:-1px;background:var(--c,#ccc)}
+@media(max-width:760px){.months{grid-template-columns:1fr}.month+.month{display:none}.day{aspect-ratio:1/.9;font-size:1.02rem}}
+
+/* DEMANDE */
+.ask{padding:clamp(40px,6vw,88px) 0 clamp(72px,10vw,130px)}
+.ask .grid{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(28px,5vw,80px);align-items:start}
+.ask h2{margin-bottom:22px;max-width:14ch}
+form.req{display:grid;gap:14px}
+.f{display:grid;gap:6px}
+.f label{font-weight:600;font-size:.95rem}
+.f input,.f textarea{width:100%;padding:14px 16px;border:1.5px solid var(--line);border-radius:14px;background:#fff;color:var(--ink);font-size:1.02rem}
+.f textarea{min-height:104px;resize:vertical}
+.f input:focus,.f textarea:focus{outline:none;border-color:var(--nuit);box-shadow:0 0 0 3px rgba(60,195,182,.4)}
+.f input[aria-invalid="true"]{border-color:var(--rouge)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.consent{display:flex;gap:12px;align-items:flex-start;font-size:.9rem;color:var(--muted)}
+.consent input{margin-top:4px;width:20px;height:20px;accent-color:var(--nuit);flex:none}
+.hp{position:absolute;left:-9999px;opacity:0}
+.fine{font-size:.88rem;color:var(--muted)}
+@media(max-width:560px){.two{grid-template-columns:1fr}}
+.recap{position:sticky;top:90px;background:var(--nuit);color:var(--pierre);border-radius:22px;padding:26px}
+.recap h3{font-size:1.5rem;margin-bottom:14px}
+.recap dl div{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-top:1px solid var(--line-light)}
+.recap dt{color:var(--eau-clair);font-size:.95rem}
+.recap dd{text-align:right;font-weight:500}
+.recap .sum{margin-top:6px;padding-top:14px;border-top:1px solid var(--line-light);display:flex;justify-content:space-between;align-items:end}
+.recap .sum b{font-family:var(--display);font-weight:400;font-size:2.4rem;line-height:1}
+.recap p{margin-top:14px;font-size:.88rem;color:#C7D0C9}
+.done{background:#fff;border-radius:22px;padding:clamp(22px,4vw,38px);display:none}
+.done.show{display:block;animation:pop 380ms var(--ease)}
+@keyframes pop{from{opacity:0;transform:translateY(10px) scale(.98)}}
+.check{width:54px;height:54px;margin-bottom:14px;fill:none;stroke:var(--eau-fonce);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.check circle,.check path{stroke-dasharray:1;stroke-dashoffset:1}
+.done.show .check circle{animation:draw 600ms var(--ease) 80ms forwards}
+.done.show .check path{animation:draw 380ms var(--ease) 460ms forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.done h3{font-size:1.8rem;margin-bottom:10px}
+.done pre{margin:16px 0;padding:16px;background:var(--pierre);border-radius:14px;white-space:pre-wrap;font:500 .95rem/1.5 var(--body)}
+.done .row{display:flex;flex-wrap:wrap;gap:10px}
+@media(max-width:900px){.ask .grid{grid-template-columns:1fr}.recap{position:static;order:-1}}
+
+/* BARRE MOBILE */
+.dock{position:fixed;left:12px;right:12px;bottom:max(12px,env(safe-area-inset-bottom));z-index:40;display:none;align-items:center;justify-content:space-between;gap:12px;padding:10px 10px 10px 20px;border-radius:99px;background:rgba(16,25,22,.95);color:var(--pierre);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 10px 30px rgba(0,0,0,.35);transform:translateY(160%);transition:transform .5s var(--ease)}
+.dock.show{transform:none}
+.dock b{font-family:var(--display);font-weight:400;font-size:1.4rem;display:block;line-height:1.1}
+.dock small{font-size:.78rem;color:var(--eau-clair)}
+@media(max-width:900px){.dock{display:flex}}
+footer{background:var(--nuit);color:#9FAAA3;padding:30px 0 40px;font-size:.9rem}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 32px}
+@media(max-width:900px){footer{padding-bottom:110px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="La Ferme de Max, accueil">
+      <svg class="mark" viewBox="0 0 72 72" aria-hidden="true">
+        <defs><clipPath id="c-r"><path d="M10 34 L36 12 L62 34 V60 H10 Z"/></clipPath></defs>
+        <g clip-path="url(#c-r)"><g transform="translate(0 44)"><path class="wave fillw" d="M-36 0 q9 -6 18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 t18 0 V80 H-36Z"/></g></g>
+        <path class="house" d="M10 34 L36 12 L62 34 V60 H10 Z"/>
+        <path class="house" d="M30 60 V47 a6 6 0 0 1 12 0 V60"/>
+      </svg>
+      <span>La Ferme de Max<small>Domaine et spa</small></span>
+    </a>
+    <a class="back" href="index.html">Retour au domaine</a>
+  </div>
+</header>
+
+<main>
+  <section class="head">
+    <div class="wrap">
+      <h1>Vérifiez vos dates en dix secondes</h1>
+      <p class="lead">Choisissez votre séjour, vous voyez les gîtes concernés et le prix. Jacuzzi inclus.</p>
+      <form class="mini" id="mini" novalidate aria-label="Vérifier les disponibilités">
+        <label>Arrivée<input type="date" id="in" required></label>
+        <label>Départ<input type="date" id="out" required></label>
+        <label>Voyageurs<select id="pax"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select></label>
+        <button class="btn" type="submit">Voir les disponibilités</button>
+      </form>
+      <p class="err" id="err" role="alert"></p>
+      <ul class="trust">
+        <li>Sans paiement en ligne</li>
+        <li>Jacuzzi inclus, 24h/24</li>
+        <li>Maxence confirme chaque demande</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="dispos" id="dispos">
+    <div class="wrap">
+      <div class="top">
+        <h2>Les gîtes pour votre séjour</h2>
+        <p class="meta" id="meta">Choisissez vos dates pour voir les prix et la disponibilité.</p>
+      </div>
+      <div class="cards" id="cards" role="group" aria-label="Choisir un gîte"></div>
+
+      <div class="cal" id="cal" aria-label="Calendrier">
+        <div class="bar">
+          <button type="button" id="mPrev" aria-label="Mois précédent">&larr;</button>
+          <strong id="calTitle">Calendrier</strong>
+          <button type="button" id="mNext" aria-label="Mois suivant">&rarr;</button>
+        </div>
+        <div class="months" id="months"></div>
+        <div class="legend">
+          <span style="--c:var(--nuit)">Votre séjour</span>
+          <span style="--c:rgba(60,195,182,.45)">Nuits comprises</span>
+          <span style="--c:rgba(26,33,30,.2)">Nuit déjà prise</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ask" id="demande">
+    <div class="wrap grid">
+      <div>
+        <h2>Envoyez votre demande</h2>
+        <form class="req" id="req" novalidate>
+          <div class="two">
+            <div class="f"><label for="nom">Nom</label><input id="nom" name="nom" autocomplete="name" required></div>
+            <div class="f"><label for="tel">Téléphone</label><input id="tel" name="tel" type="tel" autocomplete="tel" inputmode="tel" required></div>
+          </div>
+          <div class="f"><label for="mail">Email</label><input id="mail" name="mail" type="email" autocomplete="email" inputmode="email" required></div>
+          <div class="f"><label for="msg">Un message pour Maxence (facultatif)</label><textarea id="msg" name="msg" placeholder="Occasion, heure d'arrivée prévue, questions"></textarea></div>
+          <input class="hp" type="text" name="site" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <label class="consent"><input type="checkbox" id="ok" required><span>J'accepte que ces informations soient utilisées pour répondre à ma demande de séjour. Elles ne servent à rien d'autre.</span></label>
+          <p class="err" id="err2" role="alert"></p>
+          <button class="btn dark" type="submit" id="send">Envoyer ma demande</button>
+          <p class="fine">Aucun paiement n'est demandé maintenant. Un dépôt de garantie de 500 € s'applique au séjour.</p>
+        </form>
+        <div class="done" id="done" tabindex="-1">
+          <svg class="check" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="23" pathLength="1"/><path d="M15 27 l8 8 l14 -16" pathLength="1"/></svg>
+          <h3 id="doneTitle">Votre demande est prête</h3>
+          <p id="doneText">Copiez ce récapitulatif et envoyez-le à Maxence depuis sa page de contact.</p>
+          <pre id="summary"></pre>
+          <div class="row">
+            <button class="btn dark" type="button" id="copy">Copier la demande</button>
+            <a class="btn ghost" id="gg" href="https://www.greengo.voyage/hote/domaine-spa-la-ferme-de-max" target="_blank" rel="noopener">Contacter Maxence</a>
+          </div>
+        </div>
+      </div>
+      <aside class="recap" aria-live="polite">
+        <h3>Votre séjour</h3>
+        <dl>
+          <div><dt>Gîte</dt><dd id="rG">À choisir</dd></div>
+          <div><dt>Arrivée</dt><dd id="rA">-</dd></div>
+          <div><dt>Départ</dt><dd id="rD">-</dd></div>
+          <div><dt>Voyageurs</dt><dd id="rP">2</dd></div>
+          <div><dt>Nuits</dt><dd id="rN">-</dd></div>
+        </dl>
+        <div class="sum"><span>Estimation</span><b id="rT">-</b></div>
+        <p>Tarif affiché par nuit pour 2 voyageurs, hors options. Il peut varier selon les dates. Maxence confirme le prix final.</p>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>La Ferme de Max, domaine et spa, Saint-Médard-d'Aunis (17)</span>
+    <a href="index.html">Retour à l'accueil</a>
+  </div>
+</footer>
+
+<div class="dock" id="dock">
+  <div><small id="dockS">Votre séjour</small><b id="dockT">-</b></div>
+  <a class="btn sm" href="#demande" id="dockB">Demander ce séjour</a>
+</div>
+
+<script>
+/* Réglages d'envoi : renseigner l'un des deux pour que la demande parte toute seule.
+   endpoint : URL qui reçoit le JSON de la demande (service de formulaire, automatisation).
+   email    : à défaut, ouvre le mail du visiteur avec la demande pré-remplie. */
+const CONFIG = { endpoint: "", email: "" };
+
+(() => {
+  const $ = s => document.querySelector(s);
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  /* Erreur : trois oscillations nettes, sans rebond */
+  const shake = el => { if (reduce || !el) return; el.animate([{ transform: 'translateX(0)' }, { transform: 'translateX(-8px)' }, { transform: 'translateX(8px)' }, { transform: 'translateX(-5px)' }, { transform: 'translateX(5px)' }, { transform: 'translateX(0)' }], { duration: 340, easing: 'ease-in-out' }); };
+  const say = (sel, t) => { const el = $(sel); el.textContent = t; shake(el); };
+  /* Titre : mots révélés un par un, comme sur l'accueil */
+  (() => { const h = $('.head h1'); h.setAttribute('aria-label', h.textContent); h.innerHTML = h.textContent.trim().split(/\s+/).map((w, i) => `<span class="w" aria-hidden="true"><i style="animation-delay:${120 + i * 90}ms">${w}</i></span>`).join(' '); })();
+  const GITES = [
+    { id: 'atelier', name: "Gîte l'Atelier", price: 192, tags: 'Adapté aux bébés' },
+    { id: 'grange', name: 'Gîte la Grange', price: 232, tags: 'Adapté aux bébés, accessible PMR' },
+    { id: 'grenier', name: 'Gîte le Grenier', price: 247, tags: 'Adapté aux bébés' }
+  ];
+  let DATA = { confirmed: false, blocked: { atelier: [], grange: [], grenier: [] } };
+  const S = { start: null, end: null, pax: 2, gite: null, month: null };
+
+  /* ---------- Dates ---------- */
+  const iso = d => new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+  const parse = s => new Date(s + 'T12:00:00');
+  const addDays = (s, n) => { const d = parse(s); d.setDate(d.getDate() + n); return iso(d); };
+  const diff = (a, b) => Math.round((parse(b) - parse(a)) / 86400000);
+  const today = iso(new Date());
+  const fmt = s => s ? parse(s).toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'long' }) : '-';
+  const eur = n => n.toLocaleString('fr-FR') + ' €';
+
+  /* Une nuit est prise si elle tombe dans une plage [arrivée, départ[ bloquée. */
+  const nightBlocked = (g, d) => (DATA.blocked[g] || []).some(([a, b]) => d >= a && d < b);
+  const conflict = (g, a, b) => { for (let d = a; d < b; d = addDays(d, 1)) if (nightBlocked(g, d)) return true; return false; };
+  const nights = () => (S.start && S.end) ? diff(S.start, S.end) : 0;
+  const statusOf = g => {
+    if (!nights()) return 'idle';
+    if (conflict(g, S.start, S.end)) return 'no';
+    return DATA.confirmed ? 'ok' : 'maybe';
+  };
+  const LABEL = { idle: 'Choisissez vos dates', ok: 'Disponible', maybe: 'À confirmer', no: 'Indisponible sur ces dates' };
+
+  /* ---------- Rendu : cartes ---------- */
+  function renderCards() {
+    const n = nights();
+    if (!renderCards.done) { renderCards.done = true; const box = $('#cards'); box.classList.add('first'); setTimeout(() => box.classList.remove('first'), 1000); }
+    $('#cards').innerHTML = GITES.map(g => {
+      const st = statusOf(g.id);
+      return `<button type="button" class="card ${st === 'no' ? 'off' : ''}" data-g="${g.id}" aria-pressed="${S.gite === g.id}">
+        <h3>${g.name}</h3>
+        <div class="night">${eur(g.price)} <small>par nuit</small></div>
+        <div class="tags">${g.tags}</div>
+        <span class="badge ${st}">${LABEL[st]}</span>
+        ${n ? `<div class="total">${n} nuit${n > 1 ? 's' : ''} : ${eur(g.price * n)}</div>` : ''}
+      </button>`;
+    }).join('');
+    $('#meta').textContent = n
+      ? `${fmt(S.start)} au ${fmt(S.end)}, ${n} nuit${n > 1 ? 's' : ''}, ${S.pax} voyageur${S.pax > 1 ? 's' : ''}`
+      : 'Choisissez vos dates pour voir les prix et la disponibilité.';
+  }
+  $('#cards').addEventListener('click', e => {
+    const b = e.target.closest('.card'); if (!b) return;
+    S.gite = b.dataset.g; sync();
+    if (S.start && S.end) $('#demande').scrollIntoView({ behavior: 'smooth' });
+  });
+
+  /* ---------- Rendu : calendrier ---------- */
+  const monthStart = d => { const x = parse(d); x.setDate(1); return iso(x); };
+  const narrow = matchMedia('(max-width:760px)');
+  function renderCal() {
+    const g = S.gite || GITES[0].id;
+    const first = S.month || monthStart(S.start || today);
+    S.month = first;
+    const count = narrow.matches ? 1 : 2;
+    let html = '', title = [];
+    for (let k = 0; k < count; k++) {
+      const m0 = parse(first); m0.setMonth(m0.getMonth() + k); m0.setDate(1);
+      const label = m0.toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' });
+      title.push(label);
+      const offset = (m0.getDay() + 6) % 7;
+      const dim = new Date(m0.getFullYear(), m0.getMonth() + 1, 0).getDate();
+      let cells = '<span></span>'.repeat(offset);
+      for (let day = 1; day <= dim; day++) {
+        const d = iso(new Date(m0.getFullYear(), m0.getMonth(), day, 12));
+        const past = d < today, blocked = nightBlocked(g, d);
+        const cls = ['day'];
+        if (blocked) cls.push('blocked');
+        if (d === today) cls.push('today');
+        if (S.start && d === S.start) cls.push('start');
+        if (S.end && d === S.end) cls.push('end');
+        if (S.start && S.end && d > S.start && d < S.end) cls.push('inrange');
+        const canEndOnBlocked = blocked && S.start && !S.end && d > S.start && !conflict(g, S.start, d);
+        const dis = past || (blocked && !canEndOnBlocked);
+        cells += `<button type="button" class="${cls.join(' ')}" data-d="${d}" ${dis ? 'disabled' : ''} aria-label="${fmt(d)}${blocked ? ', nuit prise' : ''}">${day}</button>`;
+      }
+      html += `<div class="month"><h4>${label}</h4><div class="dow"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span></div><div class="days">${cells}</div></div>`;
+    }
+    $('#months').innerHTML = html;
+    $('#calTitle').textContent = count === 2 ? 'Calendrier' : title[0];
+    $('#mPrev').disabled = first <= monthStart(today);
+  }
+  $('#mPrev').onclick = () => { const d = parse(S.month); d.setMonth(d.getMonth() - 1); S.month = iso(d); renderCal(); };
+  $('#mNext').onclick = () => { const d = parse(S.month); d.setMonth(d.getMonth() + 1); S.month = iso(d); renderCal(); };
+  $('#months').addEventListener('click', e => {
+    const b = e.target.closest('.day'); if (!b || b.disabled) return;
+    const d = b.dataset.d, g = S.gite || GITES[0].id;
+    if (!S.start || S.end || d <= S.start) { S.start = d; S.end = null; }
+    else if (conflict(g, S.start, d)) { S.start = d; S.end = null; }
+    else S.end = d;
+    sync(true);
+  });
+  narrow.addEventListener('change', renderCal);
+
+  /* ---------- Récapitulatif ---------- */
+  function renderRecap() {
+    const g = GITES.find(x => x.id === S.gite), n = nights();
+    $('#rG').textContent = g ? g.name : 'À choisir';
+    $('#rA').textContent = fmt(S.start); $('#rD').textContent = fmt(S.end);
+    $('#rP').textContent = S.pax;
+    $('#rN').textContent = n || '-';
+    const total = g && n ? eur(g.price * n) : '-';
+    $('#rT').textContent = total;
+    const ready = g && n && statusOf(g.id) !== 'no';
+    $('#dockT').textContent = ready ? total : (n ? `${n} nuit${n > 1 ? 's' : ''}` : 'Choisissez vos dates');
+    $('#dockS').textContent = ready ? g.name : (n ? 'Choisissez un gîte' : 'Votre séjour');
+    $('#dockB').textContent = ready ? 'Demander ce séjour' : (n ? 'Choisir un gîte' : 'Voir les dispos');
+    $('#dockB').setAttribute('href', ready ? '#demande' : '#dispos');
+    $('#send').disabled = false;
+  }
+
+  /* ---------- Synchronisation ---------- */
+  function sync(fromCal) {
+    $('#in').value = S.start || ''; $('#out').value = S.end || '';
+    $('#pax').value = String(S.pax);
+    renderCards(); renderCal(); renderRecap();
+    const q = new URLSearchParams();
+    if (S.start) q.set('arrivee', S.start); if (S.end) q.set('depart', S.end);
+    q.set('pax', S.pax); if (S.gite) q.set('gite', S.gite);
+    history.replaceState(null, '', '?' + q.toString());
+    if (fromCal) $('#err').textContent = '';
+  }
+
+  /* ---------- Mini formulaire ---------- */
+  const inEl = $('#in'), outEl = $('#out');
+  inEl.min = today; outEl.min = today;
+  inEl.addEventListener('change', () => {
+    S.start = inEl.value || null;
+    if (S.start) { outEl.min = addDays(S.start, 1); if (!S.end || S.end <= S.start) S.end = addDays(S.start, 1); }
+    S.month = S.start ? monthStart(S.start) : null; sync();
+  });
+  outEl.addEventListener('change', () => { S.end = outEl.value || null; sync(); });
+  $('#pax').addEventListener('change', e => { S.pax = +e.target.value; sync(); });
+  $('#mini').addEventListener('submit', e => {
+    e.preventDefault();
+    if (!S.start || !S.end) { say('#err', 'Indiquez une date d\'arrivée et une date de départ.'); return; }
+    if (S.end <= S.start) { say('#err', 'Le départ doit être après l\'arrivée.'); return; }
+    $('#err').textContent = '';
+    if (!S.gite) { const free = GITES.find(g => statusOf(g.id) !== 'no'); S.gite = free ? free.id : null; sync(); }
+    $('#dispos').scrollIntoView({ behavior: 'smooth' });
+  });
+
+  /* ---------- Envoi de la demande ---------- */
+  const val = (el, ok) => { el.setAttribute('aria-invalid', ok ? 'false' : 'true'); return ok; };
+  $('#req').addEventListener('submit', async e => {
+    e.preventDefault();
+    const g = GITES.find(x => x.id === S.gite), n = nights(), err2 = $('#err2');
+    const err = { set textContent(v) { err2.textContent = v; if (v) shake(err2); } };
+    if (!g || !n) { err.textContent = 'Choisissez d\'abord vos dates et un gîte.'; $('#dispos').scrollIntoView({ behavior: 'smooth' }); return; }
+    if (statusOf(g.id) === 'no') { err.textContent = 'Ce gîte est pris sur ces dates. Choisissez-en un autre ou changez de dates.'; return; }
+    const f = e.target;
+    const good = [val(f.nom, f.nom.value.trim().length > 1), val(f.tel, f.tel.value.replace(/\D/g, '').length >= 8), val(f.mail, /^\S+@\S+\.\S+$/.test(f.mail.value))].every(Boolean);
+    if (!good) { err.textContent = 'Vérifiez votre nom, votre téléphone et votre email.'; return; }
+    if (!$('#ok').checked) { err.textContent = 'Cochez la case pour que nous puissions vous répondre.'; return; }
+    if (f.site.value) return; /* anti-robot */
+    err.textContent = '';
+    const payload = {
+      gite: g.name, arrivee: S.start, depart: S.end, nuits: n, voyageurs: S.pax,
+      estimation_eur: g.price * n, nom: f.nom.value.trim(), telephone: f.tel.value.trim(),
+      email: f.mail.value.trim(), message: f.msg.value.trim(), statut_dispo: statusOf(g.id)
+    };
+    const text = `Demande de séjour, La Ferme de Max\n\n${g.name}\nDu ${fmt(S.start)} au ${fmt(S.end)} (${n} nuit${n > 1 ? 's' : ''})\n${S.pax} voyageur${S.pax > 1 ? 's' : ''}\nEstimation : ${eur(g.price * n)}\n\n${payload.nom}\n${payload.telephone}\n${payload.email}${payload.message ? '\n\n' + payload.message : ''}`;
+    const btn = $('#send'); btn.disabled = true; btn.textContent = 'Envoi en cours';
+    try {
+      if (CONFIG.endpoint) {
+        const r = await fetch(CONFIG.endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(payload) });
+        if (!r.ok) throw new Error('http ' + r.status);
+        showDone('Demande envoyée', 'Maxence a bien reçu votre demande et vous répond pour confirmer la disponibilité.', text, false);
+      } else if (CONFIG.email) {
+        location.href = `mailto:${CONFIG.email}?subject=${encodeURIComponent('Demande de séjour, ' + g.name)}&body=${encodeURIComponent(text)}`;
+        showDone('Votre messagerie s\'ouvre', 'Envoyez le message pré-rempli pour finaliser votre demande.', text, false);
+      } else {
+        showDone('Votre demande est prête', 'Copiez ce récapitulatif et envoyez-le à Maxence depuis sa page de contact.', text, true);
+      }
+    } catch (x) {
+      err.textContent = 'L\'envoi a échoué. Copiez votre demande ci-dessous et envoyez-la depuis la page de contact de Maxence.';
+      showDone('Envoi impossible', 'Copiez ce récapitulatif et envoyez-le à Maxence depuis sa page de contact.', text, true);
+    } finally { btn.disabled = false; btn.textContent = 'Envoyer ma demande'; }
+  });
+  function showDone(title, msg, text, manual) {
+    $('#doneTitle').textContent = title; $('#doneText').textContent = msg;
+    $('#summary').textContent = text;
+    $('#copy').style.display = manual ? '' : 'none';
+    $('#gg').style.display = manual ? '' : 'none';
+    $('#req').style.display = 'none'; const d = $('#done'); d.classList.add('show'); d.focus();
+    d.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+  $('#copy').onclick = async () => {
+    try { await navigator.clipboard.writeText($('#summary').textContent); $('#copy').textContent = 'Copié'; } catch (e) { $('#copy').textContent = 'Sélectionnez le texte'; }
+  };
+
+  /* ---------- Barre mobile ---------- */
+  const dock = $('#dock');
+  const onScroll = () => dock.classList.toggle('show', scrollY > 260);
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  /* ---------- Démarrage : disponibilités puis paramètres d'URL ---------- */
+  (async () => {
+    try {
+      const r = await fetch('data/dispos.json', { cache: 'no-store' });
+      if (r.ok) DATA = await r.json();
+    } catch (e) { /* ouverture locale : données par défaut */ }
+    const q = new URLSearchParams(location.search);
+    const a = q.get('arrivee'), b = q.get('depart'), ok = s => /^\d{4}-\d{2}-\d{2}$/.test(s || '');
+    if (ok(a) && a >= today) { S.start = a; if (ok(b) && b > a) S.end = b; }
+    if (S.start) { outEl.min = addDays(S.start, 1); if (!S.end) S.end = addDays(S.start, 1); }
+    const p = +q.get('pax'); if (p >= 1 && p <= 6) S.pax = p;
+    const gq = q.get('gite'); if (GITES.some(x => x.id === gq)) S.gite = gq;
+    sync();
+    if (S.start && S.end) { if (!S.gite) { const f = GITES.find(g => statusOf(g.id) !== 'no'); if (f) { S.gite = f.id; sync(); } } }
+  })();
+})();
+</script>
+</body>
+</html>

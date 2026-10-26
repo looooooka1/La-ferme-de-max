@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://looooooka1.github.io/La-ferme-de-mac/sitemap.xml

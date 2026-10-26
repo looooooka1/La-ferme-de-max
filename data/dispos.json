@@ -1,0 +1,10 @@
+{
+  "confirmed": false,
+  "updated": null,
+  "note": "Plages bloquées par gîte, au format [arrivée, départ] (le jour de départ est libre). Passer confirmed à true quand ces données reflètent le calendrier réel.",
+  "blocked": {
+    "atelier": [],
+    "grange": [],
+    "grenier": []
+  }
+}
